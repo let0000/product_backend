@@ -41,6 +41,7 @@ const db = {
   host: "svc.gksl2.cloudtype.app",
   user: "root",
   password: "root",
+  port: "30626",
 };
 
 const dbPool = require("mysql").createPool(db);
